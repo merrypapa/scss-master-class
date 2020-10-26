@@ -1,0 +1,10 @@
+1. Block / Inline / Inlinebox
+- block has width and height but inline doesn't
+- inline-block has the block property(height and width) also can put other element next to each other
+2. Flexbox
+- previously, the position of element is managed by pixel. but as the interface devices has been diversified, the position should flexible -> flexbox and grid are created
+- flexbox is not communicating with children -> needs flex container
+- turn flex on -> display:flex
+- flex direct -> row(default) / column
+- justify-content: modify the position in main axis
+- align-items: modify the position in cross axis

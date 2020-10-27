@@ -1,6 +1,7 @@
 1. Block / Inline / Inlinebox
 - block has width and height but inline doesn't
 - inline-block has the block property(height and width) also can put other element next to each other
+
 2. Flexbox
 - previously, the position of element is managed by pixel. but as the interface devices has been diversified, the position should flexible -> flexbox and grid are created
 - flexbox is not communicating with children -> needs flex container
@@ -8,3 +9,29 @@
 - flex direct -> row(default) / column
 - justify-content: modify the position in main axis
 - align-items: modify the position in cross axis
+
+3. Align-self and order
+- align-self is similar to align-items but it applies to the child not container.
+- order: default is 0
+
+4. flex-wrap
+- nowarp: everything in the same line
+- wrap: respect the individual property like width and height
+
+5. reverse
+- flex-direction reverse makes the order to be reverse
+- wrap reverse
+
+6. align-content
+- modify the line on the cross axis
+
+7. flex-shirink
+- make the child box to be shirink more than other box
+- default: 1
+
+8. flex-grow
+- make the child to grow if there is available space
+- default: 0
+
+9. flex-basis
+- initial property for the main axis

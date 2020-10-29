@@ -1,0 +1,27 @@
+#2.1 Life before grid
+- grid can divide the section as grid
+
+#2.2 CSS grid basic concepts
+- grid template column/row set the size and number of segment.
+
+#2.3 grid template area
+- as set the grid template area, the grid can be assigned to the designated element we want.
+
+#2.4 rows and columns
+- grid-row-start / grid-row-end: related to the line not the element
+- grid-column-start / grid-column-end: related to the line not the element
+
+#2.5 shortcuts
+- grid-column(row)-start/end --> grid-column: 1 / 4, -1 -> all the way to the end
+- span -> cell
+- grid-row: 2 / span 2
+
+#2.6 Line Naming
+- [first-line] 100px [second-line] 100px ... --> line has the name
+
+#2.7 Grid template
+- fr -> fraction(space available) -> need to set the height to make the room horizontally
+- grid-template
+
+#2.8 Plcae Items
+- justify items(default: stretch) / align items - >place-items

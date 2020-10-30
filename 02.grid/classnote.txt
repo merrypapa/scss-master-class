@@ -25,3 +25,26 @@
 
 #2.8 Plcae Items
 - justify items(default: stretch) / align items - >place-items
+
+#2.9 Place Content
+- content -> whole items / item -> individual item
+- place content -> vertical / horizontal
+
+#2.10 Auto Columns and rows
+- align-self / justify-self -> for the individual item
+- if there is more contents than the grid setting -> grid-auto-rows: 100px; -> will add more rows if there is more contents to be displayed
+- grid-auto-flow: column; -> create more column not row / row -> will create more rows 
+- grid-auto-column -> set the size of column
+
+#2.11 minmax
+- minmax(100px,1fr): minimum is 100px, and stay at 1fr if the screen is big enough
+
+#2.12 auto-fit auto-fill
+- responsive
+- auto-fill -> fill the row with columns as much as the screen allows
+- auto-fit -> takes the current div and stretch them
+- ex. repeat(auto-fill/fit, minmax(100px,1fr));
+
+#2.13 min-content max-content
+- min-content -> resize the box to minimum size according to the content
+- max-content -> resize the box to maximum size according to the content
